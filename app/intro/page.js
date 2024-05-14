@@ -1,20 +1,51 @@
 import React from 'react';
 import Tarjeta from '../Components/Tarjeta';
+//import Tarjeta2 from '../Components/Tarjeta2';
+
 
 function IndexPage() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-800">
       {/*ENCABEZADO PRINCIPAL*/}
-      <h1 className="text-4xl text-center font-bold text-teal-400 mb-5">
-        BIENVENIDO A LA EXPERIENCIA <br /> VIRTUAL DE MEDICIONES
+      <br/>
+      <br/>
+      <h1 className="text-5xl text-center font-bold text-emerald-400">
+      BIENVENIDO A LA EXPERIENCIA</h1>
+      <h1 className="text-5xl text-center font-semibold text-white">
+      VIRTUAL DE MEDICIONES
       </h1>
+      <div>
+      <br/>   
+        <br/>
+
+      <h2 className="text-2xl text-white mb-4 font-bold text-gray-800 bg-emerald-400 px-4 mb-5 rounded-xl">
+        Tus primeros pasos para comenzar
+      </h2></div>
+      <br />
+<div className="flex flex-row items-center gap-6 justify-center bg-gray-800">
+      {/*CONTENEDOR TUTORIAL*/}
+
+      <Tarjeta image='/tutorial.png'
+          title='Tutorial' description='Realización de mediciones mediante el uso de un contador Geiger'></Tarjeta>
+          
+
+          {/*CONTENEDOR EXTINTORES*/}
+
+        <Tarjeta image='/Extintores.png'
+          title='Extintores' description='Realización de uso de extintores ante una situación de emergencia'></Tarjeta>
+
+</div>
+
       {/*SUBENCABEZADO*/}
-      <h2 className="text-xl text-white mb-4">
-        Selecciona una experiencia
+      <br />
+      <br />
+      <h2 className="text-2xl text-white mb-4 font-bold text-gray-800 bg-emerald-400 px-4 mb-5 rounded-xl">
+     Selecciona una experiencia
       </h2>
+      <br />
       {/*CONTENEDOR DE OPCIONES*/}
       {/*------- -----grid: grilla / Cols: columna/ md:pantalla mediana / lg pantalla grande*/}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-4 md:px-8 lg:px-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-4 md:px-8 lg:px-16" >
         
         {/*CONTENEDOR EXP 1*/}
 
