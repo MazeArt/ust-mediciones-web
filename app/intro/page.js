@@ -43,13 +43,13 @@ function IndexPage() {
         {/*SUBENCABEZADO*/}
         <br />
         <br />
-        <h2 className="text-2xl text-white items-center justify-center font-bold text-gray-800 bg-teal-600 px-4 py-2 mb-5 rounded-xl">
+        <h2 className="text-2xl text-white items-center justify-center font-bold bg-teal-600 px-4 py-2 mb-5 rounded-xl">
           Selecciona una experiencia
         </h2>
         <br />
         {/*CONTENEDOR DE OPCIONES*/}
         {/*------- -----grid: grilla / Cols: columna/ md:pantalla mediana / lg pantalla grande*/}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-4 md:px-8 lg:px-16 px-10 py-6 bg-teal-700">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:px-8 lg:px-16 px-10 py-6 bg-teal-700">
 
           {/*CONTENEDOR EXP 1*/}
 
