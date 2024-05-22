@@ -1,6 +1,6 @@
 import React from "react";
-import Tarjeta from "../Components/Tarjeta";
-import Header from "../Components/Header";
+import Tarjeta from "./Components/Tarjeta";
+import Header from "./Components/Header";
 
 //import Tarjeta2 from '../Components/Tarjeta2';
 
